@@ -1,0 +1,228 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #090f1b;
+}
+h1,
+h2 {
+  font-size: clamp(2.5rem, 3vw, 4.5rem);
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-weight: 700;
+  color: #ecf2f5;
+}
+span {
+  color: #66edbe;
+}
+h3 {
+  font-family: "Manrope", Arial, sans-serif;
+  font-weight: 700;
+  color: #ecf2f5;
+  font-size: clamp(2.5rem, 3vw, 4.5rem);
+}
+.copyright {
+  text-align: center;
+  color: #9CADBC;
+  font-size: 0.875rem;
+  margin: 0;
+}
+p {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  color: #9cadbc;
+  text-align: left;
+  font-size: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #101a2b;
+  height: 70px;
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+  padding-right: 10px;
+  border: 1px solid #26364a;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 40px;
+
+  width: 60px;
+  height: 40px;
+
+  background-color: #111d2f;
+  color: #66edbe;
+
+  border: 1px solid #26364a;
+  border-radius: 12px;
+
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-weight: 700;
+
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.logo:hover {
+  border-color: #66edbe;
+  transform: translateY(-1px);
+}
+.navbarbuttons {
+  margin: 10px;
+  font-size: 1rem;
+  color: #9cadbc;
+  background-color: #111d2f;
+  cursor: pointer;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  border-radius: 7px;
+  border: 1px solid #26364a;
+  padding: 5px;
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+.navbarbuttons:hover {
+  border-color: #66edbe;
+  transform: translateY(-1px);
+}
+.navbarbuttons:focus-visible {
+  outline: 2px solid #66edbe;
+  outline-offset: 4px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3rem, 6vw, 6rem);
+
+  width: min(90%, 1200px);
+  margin: 0 auto;
+}
+
+.introduction,
+.story {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: center;
+  justify-content: center;
+}
+.introduction-pic {
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.story-pic {
+  flex: 1 1 280px;
+  width: 100%;
+  max-width: 350px;
+
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 20px;
+  min-width: 0;
+}
+
+.story-text {
+  flex: 2 1 320px;
+  min-width: 0;
+}
+
+.introduction,
+.story {
+  background-color: #111d2f;
+  border: 1px solid #26364a;
+  padding: 1.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+.footer {
+  background-color: #101a2b;
+  margin: 10px;
+  margin-top: 40px;
+  border-radius: 40px;
+  padding: 40px;
+  padding-bottom: 10px;
+  border: 1px solid #26364a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+
+  background-color: #111d2f;
+  color: #66edbe;
+
+  border: 1px solid #26364a;
+  border-radius: 12px;
+
+  text-decoration: none;
+  font-size: 1.4rem;
+
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  border-color: #66edbe;
+  transform: translateY(-5px);
+}
+
+.social-icons a:focus-visible {
+  outline: 2px solid #66edbe;
+  outline-offset: 4px;
+}
+
+.back-to-top {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  margin: 10px;
+  background-color: #66edbe;
+  color: #090f1b;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  width: fit-content;
+  align-self: center;
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.back-to-top:hover {
+  transform: translateY(-5px);
+}
+
