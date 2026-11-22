@@ -306,6 +306,7 @@ p {
 
   background-color: #66edbe;
   color: #090f1b;
+  font-family: "Inter", Arial, sans-serif;
 
   padding: 0.9rem 1.5rem;
   margin-top: 1rem;
@@ -398,6 +399,7 @@ p {
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
+  font-family: "Inter", Arial, sans-serif;
   width: fit-content;
   align-self: center;
   transition:

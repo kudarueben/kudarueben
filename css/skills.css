@@ -202,6 +202,7 @@ p {
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
+  font-family: "Inter", Arial, sans-serif;
   width: fit-content;
   align-self: center;
   transition:
